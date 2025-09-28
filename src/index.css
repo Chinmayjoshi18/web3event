@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply bg-dark-bg text-white;
+  }
+}
+
+@layer components {
+  .btn-web3 {
+    @apply bg-gradient-web3 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-web3-purple/25;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-web3-purple text-web3-purple font-semibold py-3 px-8 rounded-full transition-all duration-300 hover:bg-web3-purple hover:text-white hover:scale-105;
+  }
+  
+  .card-web3 {
+    @apply bg-gradient-to-br from-dark-card to-dark-bg border border-web3-purple/20 rounded-2xl p-6 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-web3-purple/10;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-web3 bg-clip-text text-transparent;
+  }
+  
+  .glow-effect {
+    @apply shadow-xl shadow-web3-purple/20;
+  }
+}
