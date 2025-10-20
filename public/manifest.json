@@ -1,0 +1,41 @@
+{
+  "short_name": "Web3 Events",
+  "name": "Web3 Events - Premier Event Management Agency",
+  "description": "Experts in hosting web3-based events, hackathons, workshops, and seminars with tie-ups in 100+ Indian universities.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "apple touch icon"
+    },
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6366f1",
+  "background_color": "#0a0a0f",
+  "categories": ["business", "productivity", "events"],
+  "lang": "en",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}
