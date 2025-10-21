@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/web3event/static/css/main.ee7f82a3.css",
+    "main.js": "/web3event/static/js/main.a7d69a3e.js",
+    "index.html": "/web3event/index.html",
+    "main.ee7f82a3.css.map": "/web3event/static/css/main.ee7f82a3.css.map",
+    "main.a7d69a3e.js.map": "/web3event/static/js/main.a7d69a3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee7f82a3.css",
+    "static/js/main.a7d69a3e.js"
+  ]
+}
